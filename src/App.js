@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import { GlobalStyles } from "./global.styles";
+
+import Particles from "react-particles-js";
+import { particlesOption } from "./particles.utils";
+
+import Nav from "./components/navigator/navigator.component";
+import Home from "./components/home/home.component";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyles />
+      <Particles className="Particles" params={particlesOption} />
+      <Nav />
+      <Home />
     </div>
   );
 }
