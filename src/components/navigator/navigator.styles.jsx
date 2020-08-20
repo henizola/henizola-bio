@@ -15,7 +15,7 @@ export const Container = styled.div`
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
-  background-color: rgba(3, 3, 3, 0.9);
+  background-color: rgba(3, 3, 3, 0.5);
   padding: 12px;
   .icon {
     color: gray;

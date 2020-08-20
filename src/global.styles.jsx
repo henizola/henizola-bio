@@ -5,7 +5,7 @@ body {
     font-family: 'Baloo Tamma 2', cursive, sans-serif;
 	padding:0px opx;
 	height:100vh;
-  background: linear-gradient(89deg,#000 0%,#414141 100% );
+  background: linear-gradient(89deg,#2a2a2a 0%,#414141 100% );
   
 	.Particles 
 {
